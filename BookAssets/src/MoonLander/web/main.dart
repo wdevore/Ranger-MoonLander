@@ -80,12 +80,11 @@ void main() {
    preConfigure,
    1900, 1200
    );
-
 }
 
 void preConfigure() {
-  MainScene mainScene = new MainScene(333);
-  mainScene.name = "MainScene";
+  MainScene mainScene = new MainScene()
+    ..name = "MainScene";
 
   //---------------------------------------------------------------
   // Create a splash scene with a layer that will be shown prior
