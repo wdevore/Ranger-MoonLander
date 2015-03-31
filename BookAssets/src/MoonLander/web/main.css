@@ -1,0 +1,83 @@
+
+body {
+  background-color: #F8F8F8;
+  padding: 0;
+  margin: 0;
+}
+
+#gameSurface {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#defaultDialogStyle {
+  display: block;
+  position: absolute;
+  background-color: white;
+  border: black solid 1px;
+  overflow-x: hidden;
+}
+
+/* Initials dialog */
+#initials_dialog_modalContent {
+  display: block;
+  position: absolute;
+  background-color: #866761;
+  border: #B2FF59 solid 1px;
+  border-radius: 15px;
+  visibility: hidden;
+  overflow-x: hidden;
+}
+
+#initials_dialog_textContent {
+  font-family: verdana;
+  font-Size: 18pt;
+  color: #ffffff;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  position: relative;
+}
+
+#initial_dialog_text1 {
+  color: #ff9900;
+  display: block;
+  font-size: 24pt;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+#initial_dialog_input {
+  border: blue solid 1px;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 18pt;
+  text-align: center;
+  width: 30%;
+  padding: 1%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 2%;
+  position: relative;
+}
+
+#initial_dialog_buttonContainer {
+  font-family: Verdana;
+  font-size: 24pt;
+  width: 100%;
+  margin: 5%;
+  display: inline-block;
+  position: relative;
+}
+
+#initial_dialog_okayButton {
+  background-color: #9e978e;
+  border: white solid 1px;
+  border-radius: 5px;
+  color: #222222;
+  padding: 5px;
+  margin-right: 10%;
+  float: right;
+  position: relative;
+}

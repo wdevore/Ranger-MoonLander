@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/web/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/resources/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/game/actors/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/game/dialogs/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/game/levels/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/game/nodes/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/game/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/packages" />
+      <excludeFolder url="file://$MODULE_DIR$/web/scenes/splash/packages" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="application" />
+  </component>
+</module>

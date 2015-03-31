@@ -1,0 +1,10 @@
+name: MoonLander
+version: 0.0.1
+description: A Ranger Game.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  lawndart: any
+  ranger:
+    path: /Users/williamdevore/Documents/Development/GitReposes/Ranger-Dart
