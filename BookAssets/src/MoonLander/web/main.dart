@@ -3,7 +3,6 @@ library moonlander;
 import 'dart:html';
 import 'dart:async';
 import 'dart:convert';
-import 'dart:collection';
 import 'dart:web_audio';
 import 'dart:math' as Math;
 
