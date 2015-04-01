@@ -94,6 +94,7 @@ class MainLayer extends Ranger.BackgroundLayer {
 
       // Transition to Scores scene
       ScoresScene inComingScene = new ScoresScene();
+
       Ranger.TransitionMoveInFrom transition = new Ranger.TransitionMoveInFrom.initWithDurationAndScene(0.5, inComingScene, Ranger.TransitionSlideIn.FROM_BOTTOM)
         ..name = "TransitionMoveInFrom";
 
