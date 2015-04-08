@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb1d85cb-220d-4efe-b082-602d7fdc8b4d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex10_InterNodeTracking/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex10_InterNodeTracking/web/main_layer.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex10_InterNodeTracking/web/rectange_node.dart" afterPath="$PROJECT_DIR$/../Ex10_InterNodeTracking/web/rectange_node.dart" />
     </list>
     <ignored path="MoonLander.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="circle_node.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scenes/game/nodes/circle_node.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2429022">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.39432177">
+              <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -1007,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scenes/game/nodes/circle_node.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2429022">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.39432177">
+          <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding />
         </state>
       </provider>

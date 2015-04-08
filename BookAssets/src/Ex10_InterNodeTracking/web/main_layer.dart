@@ -257,8 +257,8 @@ class MainLayer extends Ranger.BackgroundLayer {
 
     _mouseSpace.text = "mouse: $x, $y";
 
-    Ranger.Vector2P nodeP = ranger.drawContext.mapViewToNode(_orangeRect, x, y);
-    _localSpaceOfRect.text = "local: ${(nodeP.v.x * _orangeRect.uniformScale).toStringAsFixed(2)}, ${(nodeP.v.y * _orangeRect.uniformScale).toStringAsFixed(2)}";
+    Ranger.Vector2P nodeP = ranger.drawContext.mapViewToNode(_yellowGreenRect, x, y);
+    _localSpaceOfRect.text = "local: ${(nodeP.v.x * _yellowGreenRect.uniformScale).toStringAsFixed(2)}, ${(nodeP.v.y * _yellowGreenRect.uniformScale).toStringAsFixed(2)}";
     nodeP.moveToPool();
 
     nodeP = ranger.drawContext.mapViewToNode(this, x, y);
