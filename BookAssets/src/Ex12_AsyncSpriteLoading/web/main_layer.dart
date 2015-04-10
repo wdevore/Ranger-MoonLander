@@ -36,8 +36,6 @@ class MainLayer extends Ranger.BackgroundLayer {
 
     UTE.Tween.registerAccessor(Ranger.SpriteImage, ranger.animations);
 
-    _rotateNode();
-
     super.onEnter();
   }
 
