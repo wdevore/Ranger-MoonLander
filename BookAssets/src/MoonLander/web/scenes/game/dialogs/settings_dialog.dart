@@ -463,7 +463,6 @@ class SettingsDialog extends Dialog {
         returnValues[0] = _dareReset.opacity;
         return 1;
     }
-    
     return 0;
   }
   

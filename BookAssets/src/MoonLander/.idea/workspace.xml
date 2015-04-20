@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1d85cb-220d-4efe-b082-602d7fdc8b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex7b_ColorTintAndMove/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex7b_ColorTintAndMove/web/main_layer.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex7b_ColorTintAndMove/web/rectange_node.dart" afterPath="$PROJECT_DIR$/../Ex7b_ColorTintAndMove/web/rectange_node.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scenes/game/dialogs/settings_dialog.dart" afterPath="$PROJECT_DIR$/web/scenes/game/dialogs/settings_dialog.dart" />
     </list>
     <ignored path="MoonLander.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,8 +78,8 @@
       <file leaf-file-name="settings_dialog.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scenes/game/dialogs/settings_dialog.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73501575">
-              <caret line="471" column="0" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5078864">
+              <caret line="458" column="16" selection-start-line="458" selection-start-column="16" selection-end-line="458" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -140,6 +142,7 @@
         <option value="$PROJECT_DIR$/../../../../Ranger-Dart/lib/ranger/nodes/base_node.dart" />
         <option value="$PROJECT_DIR$/../../../../Ranger-Dart/pubspec.yaml" />
         <option value="$PROJECT_DIR$/../../../../Ranger-Dart/lib/ranger/animation/tween_animation.dart" />
+        <option value="$PROJECT_DIR$/web/scenes/game/dialogs/settings_dialog.dart" />
       </list>
     </option>
   </component>
@@ -365,7 +368,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex7a_ColorTintAndMove" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20_ChompTransition" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
@@ -872,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scenes/game/dialogs/settings_dialog.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73501575">
-          <caret line="471" column="0" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5078864">
+          <caret line="458" column="16" selection-start-line="458" selection-start-column="16" selection-end-line="458" selection-end-column="16" />
           <folding />
         </state>
       </provider>
