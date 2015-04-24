@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1d85cb-220d-4efe-b082-602d7fdc8b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/blade_node.dart" afterPath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/blade_node.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/blade_transition.dart" afterPath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/blade_transition.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex20c_SwipeTransition/web/main_layer.dart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Ex20d_IrisTransition/web/iris_node.dart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Ex20d_IrisTransition/web/iris_transition.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MoonLander.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="base_node.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../../Ranger-Dart/lib/ranger/nodes/base_node.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35962147">
-              <caret line="547" column="5" selection-start-line="547" selection-start-column="5" selection-end-line="547" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.340694">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -181,7 +181,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20c_SwipeTransition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20a_SlatsTransition" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
@@ -671,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../../Ranger-Dart/lib/ranger/nodes/base_node.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35962147">
-          <caret line="547" column="5" selection-start-line="547" selection-start-column="5" selection-end-line="547" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.340694">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding />
         </state>
       </provider>
