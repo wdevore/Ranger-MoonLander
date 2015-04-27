@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1d85cb-220d-4efe-b082-602d7fdc8b4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Ex20e_PixelsTransition/web/pixel_transition.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Ex20e_PixelsTransition/web/rectangle_node.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/bars_transition.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/bars_transition.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main_layer.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/second_layer.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/second_layer.dart" />
     </list>
     <ignored path="MoonLander.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="level_rimbaloid_layer.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scenes/game/levels/level_rimbaloid_layer.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7008682">
-              <caret line="693" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24625099">
+              <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -243,7 +244,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex6_AlphaFade" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20f_BarsTransition" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
@@ -338,7 +339,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1053" y="23" width="1500" height="1413" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2494929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -747,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scenes/game/levels/level_rimbaloid_layer.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7008682">
-          <caret line="693" column="0" selection-start-line="688" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24625099">
+          <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
           <folding />
         </state>
       </provider>
