@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb1d85cb-220d-4efe-b082-602d7fdc8b4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/bars_transition.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/bars_transition.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/main_layer.dart" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/second_layer.dart" afterPath="$PROJECT_DIR$/../Ex20f_BarsTransition/web/second_layer.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/blockfade_transition.dart" afterPath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/blockfade_transition.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/main.dart" afterPath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/main.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/main_layer.dart" afterPath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/main_layer.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/second_layer.dart" afterPath="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition/web/second_layer.dart" />
     </list>
     <ignored path="MoonLander.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="level_rimbaloid_layer.dart" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/scenes/game/levels/level_rimbaloid_layer.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24625099">
-              <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.32202053">
+              <caret line="673" column="18" selection-start-line="673" selection-start-column="18" selection-end-line="673" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -244,7 +244,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20f_BarsTransition" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex20g_FadeBlocksTransition" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
@@ -748,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scenes/game/levels/level_rimbaloid_layer.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24625099">
-          <caret line="669" column="22" selection-start-line="669" selection-start-column="22" selection-end-line="669" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.32202053">
+          <caret line="673" column="18" selection-start-line="673" selection-start-column="18" selection-end-line="673" selection-end-column="18" />
           <folding />
         </state>
       </provider>
