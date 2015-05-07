@@ -30,6 +30,7 @@ class ZoomGroup extends Ranger.GroupNode with UTE.Tweenable {
       // Node manages its own matrix. Setting it to True will cause the
       // transform stack to overlay it--not good.
       poolable.dirty = false;
+      poolable.managedTransform = true;
       return poolable;
     }
     return null;
