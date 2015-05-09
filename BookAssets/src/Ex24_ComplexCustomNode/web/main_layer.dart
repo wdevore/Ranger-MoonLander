@@ -15,6 +15,7 @@ class MainLayer extends Ranger.BackgroundLayer {
       ..transparentBackground = true
       ..color = backgroundColor;
 
+    // Tell the SceneManager to NOT clear the background on every render pass.
     ranger.sceneManager.ignoreClear = true;
 
     return layer;
