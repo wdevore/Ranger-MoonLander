@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>Layer</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/control_panel.css">
+    <link rel="stylesheet" href="styles/input_range.css">
+</head>
+
+<body>
+
+<div id="gameSurface" width="1000" height="600"></div>
+<div id="controlPanel" class="controlPanel">
+    <table class="controlPanel_table" cellpadding="2px" cellspacing="0">
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="totalCircleCount">totalCircleCount</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="totalCircleCount" class="slider" type="range" min="1" max="200" value="50" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="totalCircleCountValue" class="controlPanel_slider_value" for="totalCircleCount">50</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="hueStart">hueStart</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="hueStart" class="slider" type="range" min="0" max="360" value="0" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="hueStartValue" class="controlPanel_slider_value" for="hueStart">0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="hueEnd">hueEnd</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="hueEnd" class="slider" type="range" min="0" max="360" value="50" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="hueEndValue" class="controlPanel_slider_value" for="hueEnd">50</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="hueChange">hueChange</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.1 to 4.0, default 1.0-->
+                <input id="hueChange" class="slider" type="range" min="10" max="400" value="100" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="hueChangeValue" class="controlPanel_slider_value" for="hueChange">1.0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="minSize">minSize</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="minSize" class="slider" type="range" min="10" max="100" value="20" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="minSizeValue" class="controlPanel_slider_value" for="minSize">20</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="minSize">maxSize</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="maxSize" class="slider" type="range" min="20" max="500" value="20" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="maxSizeValue" class="controlPanel_slider_value" for="maxSize">50</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="speed">speed</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.05 to 2.0, default 0.1-->
+                <input id="speed" class="slider" type="range" min="5" max="200" value="5" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="speedValue" class="controlPanel_slider_value" for="speed">0.05</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="minGlowTime">minGlowTime</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="minGlowTime" class="slider" type="range" min="10" max="100" value="20" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="minGlowTimeValue" class="controlPanel_slider_value" for="minGlowTime">20</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="maxGlowTime">maxGlowTime</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="maxGlowTime" class="slider" type="range" min="10" max="100" value="50" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="maxGlowTimeValue" class="controlPanel_slider_value" for="maxGlowTime">50</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="glowSize">glowSize</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.0 to 2.0, default 1.5-->
+                <input id="glowSize" class="slider" type="range" min="0" max="400" value="150" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="glowSizeValue" class="controlPanel_slider_value" for="glowSize">1.5</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="repaintAlpha">repaintAlpha</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.0 to 1.0, default 1.0-->
+                <input id="repaintAlpha" class="slider" type="range" min="0" max="100" value="100" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="repaintAlphaValue" class="controlPanel_slider_value" for="repaintAlpha">1.0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="spawnChance">spawnChance</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.0 to 0.9, default 0.2-->
+                <input id="spawnChance" class="slider" type="range" min="0" max="90" value="20" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="spawnChanceValue" class="controlPanel_slider_value" for="spawnChance">0.2</label>
+            </td>
+        </tr>
+    </table>
+    <div class="controlPanel_closeOpen">
+        <div id="controlPanel_button" class="controlPanel_closeOpen_label">Open Controls</div>
+    </div>
+</div>
+
+<script type="application/dart" src="main.dart"></script>
+<script data-pub-inline src="packages/browser/dart.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/*
+    Styles for slider control panel.
+*/
+
+.controlPanel {
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    width: 300px;
+    height: 390px;
+    background-color: #222222;
+    visibility: hidden;
+    top: 0px;
+    left: 100px;
+    z-index: 100;
+}
+
+.controlPanel_table {
+    border-left: 5px solid cornflowerblue;
+}
+
+.controlPanel_slider_label {
+    color: white;
+}
+
+.controlPanel_slider_value {
+    color: cornflowerblue;
+}
+
+.controlPanel_slider_row_label {
+    width: 30%;
+    border-bottom: 1px solid #333333;
+    font-size: small;
+}
+
+.controlPanel_slider_row_range {
+    width: 45%;
+    border-bottom: 1px solid #333333;
+}
+
+.controlPanel_slider_row_value {
+    width: 15%;
+    border-bottom: 1px solid #333333;
+}
+
+.controlPanel_closeOpen {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.controlPanel_closeOpen_label {
+    color: bisque;
+    margin-top: 5px;
+}
