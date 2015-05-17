@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<!--
+  Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
+  is governed by a BSD-style license that can be found in the LICENSE file.
+-->
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/google/stagehand">
+    <title>Layer</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/control_panel.css">
+    <link rel="stylesheet" href="styles/input_range.css">
+</head>
+
+<body>
+
+<div id="gameSurface" width="1000" height="600"></div>
+<div id="controlPanel" class="controlPanel">
+    <table class="controlPanel_table" cellpadding="2px" cellspacing="0">
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="totalOrbitals">Total Orbitals</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="totalOrbitals" class="slider" type="range" min="50" max="500" value="100" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="totalOrbitalsValue" class="controlPanel_slider_value" for="totalOrbitals">100</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="speed">Speed</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- -300 to 300, default 65-->
+                <input id="speed" class="slider" type="range" min="0" max="600" value="365" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="speedValue" class="controlPanel_slider_value" for="speed">65</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="scale">Scale</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.5 to 5, default 1-->
+                <input id="scale" class="slider" type="range" min="5" max="500" value="200" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="scaleValue" class="controlPanel_slider_value" for="scale">2.0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="radiusJitter">Radius Jitter</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0.0 to 5.0, default 0.0-->
+                <input id="radiusJitter" class="slider" type="range" min="0" max="500" value="0" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="radiusJitterValue" class="controlPanel_slider_value" for="radiusJitter">0.0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="hueJitter">Hue Jitter</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <!-- 0 to 90, default 0.0-->
+                <input id="hueJitter" class="slider" type="range" min="0" max="90" value="0" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="hueJitterValue" class="controlPanel_slider_value" for="hueJitter">0</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="clearAlpha">Clear Alpha</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="clearAlpha" class="slider" type="range" min="0" max="100" value="10" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="clearAlphaValue" class="controlPanel_slider_value" for="clearAlpha">10</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="toggleOrbitals">Toggle Orbitals</label>
+            </td>
+            <td class="controlPanel_slider_row_range" colspan="2">
+                <input id="toggleOrbitals" class="slider" type="checkbox" checked />
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="orbitalAlpha">Orbital Alpha</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="orbitalAlpha" class="slider" type="range" min="0" max="100" value="100" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="orbitalAlphaValue" class="controlPanel_slider_value" for="orbitalAlpha">100</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="toggleLight">Toggle Light</label>
+            </td>
+            <td class="controlPanel_slider_row_range" colspan="2">
+                <input id="toggleLight" class="slider" type="checkbox" checked />
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td class="controlPanel_slider_row_label">
+                <label class="controlPanel_slider_label" for="lightAlpha">Light Alpha</label>
+            </td>
+            <td class="controlPanel_slider_row_range">
+                <input id="lightAlpha" class="slider" type="range" min="0" max="100" value="10" />
+            </td>
+            <td class="controlPanel_slider_row_value">
+                <label id="lightAlphaValue" class="controlPanel_slider_value" for="lightAlpha">0.1</label>
+            </td>
+        </tr>
+        <tr class="controlPanel_slider_row">
+            <td>
+                <div id="controlPanel_clear" class="controlPanel_clear_label">Reset</div>
+            </td>
+        </tr>
+    </table>
+    <div class="controlPanel_closeOpen">
+        <div id="controlPanel_button" class="controlPanel_closeOpen_label">Open Controls</div>
+    </div>
+</div>
+
+<script type="application/dart" src="main.dart"></script>
+<script data-pub-inline src="packages/browser/dart.js"></script>
+</body>
+</html>
